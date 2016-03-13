@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_reddit_timespan_entries">
+        <item>from today</item>
+        <item>from the past week</item>
+        <item>from the past month</item>
+        <item>from the past year</item>
+        <item>of all time</item>
+    </string-array>
+
+    <string-array name="pref_reddit_timespan_values">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+        <item>all</item>
+    </string-array>
+</resources>

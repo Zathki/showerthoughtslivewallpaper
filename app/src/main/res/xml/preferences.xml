@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">>
+    <ListPreference
+        android:key="pref_reddit_timespan"
+        android:title="@string/pref_reddit_timespan_title"
+        android:dialogTitle="@string/pref_reddit_timespan_title"
+        android:entries="@array/pref_reddit_timespan_entries"
+        android:entryValues="@array/pref_reddit_timespan_values"
+        android:defaultValue="@string/pref_reddit_timespan_default"
+        android:summary="%s" />
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="pref_vertical_offset"
+        android:title="Shower Thought Offset (Home screen)"
+        android:summary="Adjust vertical offset of text"
+        android:enabled="true"
+        android:defaultValue="20"
+        sample:msbp_minValue="0"
+        sample:msbp_maxValue="100"
+        sample:msbp_interval="5"
+        sample:msbp_measurementUnit="%" />
+    <com.pavelsikun.seekbarpreference.SeekBarPreference
+        android:key="pref_vertical_offset_lockscreen"
+        android:title="Shower Thought Offset (Lock screen)"
+        android:summary="Adjust vertical offset of text"
+        android:enabled="true"
+        android:defaultValue="50"
+        sample:msbp_minValue="0"
+        sample:msbp_maxValue="100"
+        sample:msbp_interval="5"
+        sample:msbp_measurementUnit="%" />
+</PreferenceScreen>

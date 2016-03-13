@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shower Thoughts Live Wallpaper</string>
+    <string name="wallpaper_description">Shower Thoughts</string>
+
+    <string name="pref_reddit_timespan">reddit_timespan</string>
+    <string name="pref_reddit_timespan_title">Show Top Shower Thoughts</string>
+    <string name="pref_reddit_timespan_default">week</string>
+</resources>
